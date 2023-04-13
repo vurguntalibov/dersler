@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    height: 1800px;
+}
+nav{
+    height: 80px;
+    width:100%;
+    padding-top: 20px;
+    background-color:rgb(241, 232, 232);
+    font-size: 40px;
+    color: black;
+    top: 0;
+    text-align: center;
+    position:sticky;
+    z-index: 1;
+
+}
+.main{
+    position:relative;
+    margin-top: 70px;
+}
+.picture1{
+    position: absolute;
+    left:60px;
+}
+.text{
+    position: absolute;
+    left:40%;
+    font-size:20px;
+}
