@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: inline-block;
+    background-color: blue;
+    height: 70px;
+    width: 100%;
+}
+ .yazi{
+    color: white;
+    float: left;
+    padding-left: 50px;
+    padding-top: 15px;
+    font-size: 40px;
+}
+   .adlar li{
+    display: inline-block;
+    color:white;
+    font-size: 15px;
+    float: right;
+    list-style: none;
+    padding-right: 30px;
+    padding-top: 25px;
+    font-size: 20px;
+    padding-right: 20px;
+    margin-right: 20px;
+}
+section{
+    background-image:url(../sekiller/yeni.jpeg);
+    height: 120vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.yazi2{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgb(185, 146, 221);
+}
+.sol{
+    float: left;
+    width: 33%;
+    height: 250px;
+    text-align: center;
+    background-color: aquamarine;
+    padding-top: 20px;
+  }
+button{
+    background-color: rgb(94, 94, 190);
+    color: white;
+    height: 40px;
+    width: 100px;
+    size: 10px;
+    border-radius: 10%;
+    margin-top:20px;
+}
+p{
+ padding-top: 15px;
+ font-size: 20px;
+}
+.orta{
+    float: left;
+    width: 33%;
+    height: 250px;
+    text-align: center;
+    background-color: aquamarine;
+    padding-top: 20px;
+}
+.sag{
+    float: left;
+    width: 34%;
+    height: 250px;
+    text-align: center;
+    background-color: aquamarine;
+    padding-top: 20px;
+    
+}
+
+
+
+
+

@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(230, 230, 243);
+}
+.main{ 
+    margin: auto;
+    height: 700px;
+    width: 70%;
+    margin-top:80px;
+    margin-bottom: 80px;
+    background-color:white ;
+    color: indigo;
+}
+.main h1{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    background-color: white;
+    font-size: 40px;
+    /* bunun ozune align item vermek olmur; */
+}
+.input{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   justify-content:space-around;
+   padding-left: 15%;
+   padding-right: 15%;
+   background-color:white;
+   color: blue;
+   font-weight: bold;
+}
+#first{
+    border-radius: 15px;
+    margin-top: 30px;
+    height: 50px;
+    width: 350px;
+    background-color:rgb(222, 200, 244);
+    color: blue;
+    font-weight: bold;
+    font-size: 20px;
+}
+#second{
+    border-radius: 15px;
+    margin-top: 30px;
+    height: 50px;
+    width: 350px;
+    background-color:rgb(222, 200, 244);
+    color: blue;
+    font-weight: bold;
+    font-size: 20px;
+}
+#third{
+    border-radius: 15px;
+    margin-top: 30px;
+    height: 50px;
+    width: 350px;
+    background-color:rgb(222, 200, 244);
+    color: blue;
+    font-weight: bold;
+    font-size: 20px;
+}
+#fourth{
+    border-radius: 15px;
+    margin-top: 30px;
+    height: 50px;
+    width: 350px;
+    background-color:rgb(222, 200, 244);
+    color: blue;
+    font-weight: bold;
+    font-size: 20px;
+}
+.adress{
+    margin-left: 16%;
+    margin-right: 16%;
+    color: blue;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    width: 68%;
+    margin-top: 30px;
+}
+.adress>input{
+    width: 100%;
+    border-radius:15px;
+    font-size:20px;
+    color: blue;
+    background-color:rgb(154, 110, 197) ;
+    font-weight: bold;
+}
+.message{
+    margin-left: 16%;
+    margin-right: 16%;
+    color: blue;
+    display: flex;
+    height: 200px;
+    width: 68%;
+    margin-top: 30px;
+    
+}
+.message>input{
+    height: 100%;
+    width: 100%;
+    border-radius:15px;
+    font-size:25px;
+    color: blue;
+    background-color:rgb(101, 49, 156) ;
+    display: flex;
+    font-weight: bold;
+}
+#submit{
+    margin-left: 40%;
+    height: 50px;
+    margin-top: 30px;
+    width:20%;
+    background-color: brown;
+
+}
+#submit>input{
+   width:100% ;
+   height:100% ;
+   border-radius: 45px;
+   background-color:rgb(8, 8, 73);
+   color:white ;
+   font-size:20px;
+}
+.end{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    background-color: white;
+    height: 30px;
+    font-size: 20px;
+    color: rgb(213, 23, 89);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

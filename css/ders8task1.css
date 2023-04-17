@@ -1,0 +1,303 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.nav{
+    top: 0;
+    position: fixed;
+ height: 100px;   
+ width: 100%;
+ background-color: gray;
+}
+.write1{
+    float:left;
+    margin-top: 30px;
+    margin-left: 20px;
+    font-size: 40px;
+    font-weight: bold;
+}
+.bar{
+    float: right;
+    margin-right: 150px;
+    list-style: none;
+}
+.nav ul li{
+    float: left;
+    padding-right:60px;
+    padding-top:40px;
+    font-weight: bold;
+    font-size: 25px;
+}
+.main{
+    background-image:url(../sekiller/car2.jpg);
+    height:100rem;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h1{
+    font-size: 100px;
+    font-weight: bold;
+    color: aliceblue;
+    text-align: center;
+    padding-top: 100px;
+}
+.caricon{
+    background-image:url(../sekiller/icons/car1.png);
+    height: 400px;
+    width: 500px;
+    margin: auto;
+    padding-top: 20px;
+    border-bottom: solid 10px white;
+}
+.section1{
+    height:1600px;
+    width:100%;
+    background-color: rgb(160, 167, 164);
+}
+.write2{
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 30px;
+}
+.icon2{
+    clear: both;
+    padding-top: 50px;
+    height: 50px;
+    width: 50px;
+    margin-left: 43%;
+}
+.car1{
+    float: left;
+    margin-top: 250px;
+    height: 400px;
+    width: 33%;
+    border-radius: 10%;
+}
+.car2{
+    float: left;
+    height: 400px;
+    margin-top: 250px;
+    width: 33%;
+    border-radius: 10%;
+}
+.car3{
+    float: left;
+    height: 400px;
+    margin-top: 250px;
+    width: 34%;
+    border-radius: 10%;
+}
+.car4{
+    float: left;
+    height: 400px;
+    margin-top:0px;
+    width: 33%;
+    border-radius: 10%;
+}
+.car5{
+    float: left;
+    height: 400px;
+    margin-top:0px;
+    width: 33%;
+    border-radius: 10%; 
+}
+.car6{
+    float: left;
+    height: 400px;
+    margin-top:0px;
+    width: 34%;
+    border-radius: 10%;  
+}
+.car7{
+    float: left;
+    height: 400px;
+    margin-top:0px;
+    width: 33%;
+    border-radius: 10%;
+}
+.car8{
+    float: left;
+    height: 400px;
+    margin-top:0px;
+    width: 33%;
+    border-radius: 10%;
+}
+.car9{
+    float: left;
+    height: 400px;
+    margin-top:0px;
+    width: 34%;
+    border-radius: 10%;
+}
+.section2{
+    height: 1100px;
+    width: 100%;
+    background-color: rgb(72, 163, 194);
+    color: aliceblue;
+}
+.write3{
+    padding-top: 20px;
+}
+.icon3{
+    height: 150px;
+    width: 20%;
+    left: 40px;
+    border-bottom: 1rem solid red;
+    margin-left: 40%;
+  
+}
+.letter1{
+ margin-top: 30px;
+ float: left;
+ height: 350px;
+ font-size:30px;
+ width: 40%;
+ margin-left: 100px;
+}
+.letter2{
+    float: left;
+    margin-top: 30px;
+    height: 300px;
+    font-size:30px;
+    width: 40%;
+    margin-left: 100px;
+}
+.button1{
+ margin-top: 700px;
+ margin-left: 45%;
+}
+.button1>button{
+    color: brown;
+    height: 50px;
+    width: 150px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.section3{
+    height: 1100px;
+    width: 100%;
+    background-color: rgb(108, 91, 218);
+}
+.write4{
+    font-size: 50px;
+    color: black;
+    padding-top: 30px;
+    font-weight: bold;
+}
+.icon4{
+    margin-left: 46%;
+}
+ .icon4 img{
+    height: 100px;
+    width: 100px;
+    padding-bottom:2px;
+    border-bottom: 0.5rem solid rgb(234, 17, 17);
+ }
+.fullname{
+    margin-top: 40px;
+    margin-left: 15%;
+    height: 100px;
+    width: 70%;
+    border-bottom:5px solid rgb(240, 236, 236);
+}
+.fullname input{
+    width:100%;
+    height: 40px;
+    margin-top: 30px;
+}
+.mail{
+    margin-top: 40px;
+    margin-left: 15%;
+    height: 100px;
+    width: 70%;
+    border-bottom:5px solid rgb(240, 236, 236);
+}
+.mail input{
+    width:100%;
+    height: 40px;
+    margin-top: 30px;
+}
+.number{
+    margin-top: 40px;
+    margin-left: 15%;
+    height: 100px;
+    width: 70%;
+    border-bottom:5px solid rgb(240, 236, 236);
+}
+.number input{
+    width:100%;
+    height: 40px;
+    margin-top: 30px;
+}
+.textmessage{
+    margin-top: 40px;
+    margin-left: 15%;
+    height: 100px;
+    width: 70%;
+    border-bottom:2px solid rgb(240, 236, 236);
+}
+.textmessage input{
+    width:100%;
+    height: 200px;
+    margin-top: 30px;
+    padding-bottom: 150px;
+    font-size: 20px;
+}
+.button3{
+    margin-top: 220px;
+    margin-left: 45%;
+}
+.button3 button{
+    height: 60px;
+    width: 130px;
+    background-color: aqua;
+    font-size: 20px;
+    border-radius: 10px;
+}
+footer{
+    height: 150px;
+    width: 100%;
+    background-color: rgb(93, 60, 78);
+    color: aliceblue;
+}
+.left{
+    float: left;
+    width:33%;
+}
+.left h2{
+    padding-top: 30px;
+    font-size: 30px;
+    text-align:center;
+}
+.left h4{
+    padding-top:15px;
+    font-size: 20px;
+    text-align:center;
+}
+.middle{
+    float: left;
+    width:33%;
+}
+.middle h2{
+    text-align: center;
+    padding-top: 30px;
+}
+.middle img{
+    height:30px;
+    width: 30px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.right{
+    text-align: center;
+    padding-top: 30px;
+}
+.right>h2{
+    padding-bottom:15px;
+}
+.right>h4>span{
+    color: black;
+}

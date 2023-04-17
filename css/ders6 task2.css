@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+   height: 350px;
+   width: 100%;
+   background-color: rgb(75, 75, 229);
+   color: white;
+}
+p{
+  font-size: 30px;
+  text-align: center;
+  text-transform: capitalize;
+  font-weight:bold;
+  padding-top: 20px;
+}
+img{
+    margin: auto;
+    height: 100px;
+    width: 100px;
+    padding-top: 30px;
+    margin-left:48%;
+}
+.write2{
+    font-size: 20px;
+    text-align: justify;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.submit{
+    margin-left:48%;
+    height: 40px;
+    width:120px;
+    margin-top: 30px;
+    background-color: rgb(58, 61, 61);
+    color: antiquewhite;
+    font-size: 20px;
+}
+.main{
+    height: 450px;
+    width:100%;
+    background-color: grey;
+}
+.email{
+    height: 50px;
+    width: 50%;
+    margin-left:25%;
+    margin-top: 30px;
+    padding-left:10px;
+    border:solid 2px black;
+}
+.subject{
+    height: 50px;
+    width: 50%;
+    margin-left:25%;
+    margin-top: 30px;
+    padding-left:10px;
+    border:solid 2px black;
+}
+.elave{
+    height: 150px;
+    width: 50%;
+    margin-left:25%;
+    margin-top: 30px;
+    padding-left:10px;
+    border:solid 2px black;
+}
+button{
+    margin-left: 45%;
+    margin-top: 30px;
+    height: 50px;
+    width: 15%;
+    background-color: black;
+    color: aliceblue;
+    font-size: 20px;
+}
+footer{
+    height: 40px;
+    width: 100%;
+    background-color: blue;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

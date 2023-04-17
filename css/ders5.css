@@ -1,0 +1,142 @@
+*{
+ 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.icon1{
+
+}
+body{
+     background-color:red;
+}
+nav ul{
+    display: inline-block;
+    height:100px;
+    width: 100%;
+    background-color: rgb(203, 237, 237);
+}
+nav ul li{
+    display:inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    position:relative;
+    bottom: 30px;
+    left: 500px;
+    background-color:#ececf0; 
+    margin-left:100px;
+}
+.icon2{
+    display:inline-block;
+    position: relative;
+    bottom: 20px;
+    left:650px;
+}
+
+.pageleft{
+    float: left;
+    height: 900px;
+    width: 50%;
+    background-color: rgb(30, 20, 8);
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: center;
+    color: aliceblue;
+    line-height: normal;
+}
+.write1{
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-top: 150px;
+}
+.write2{
+    padding-top: 40px;
+    text-align: justify;
+    font-size: 25px;
+}
+.duyme{
+    margin-top: 80px;
+    height: 50px;
+    width: 150px;
+    background-color: rgb(115, 56, 7);
+    color: aliceblue;
+    font-size: 15px;
+    text-transform: lowercase;
+    border-radius: 20%;
+}
+.pageright{
+    float: left;
+    height:900px;
+    width:50%;
+    background-color: blueviolet;   
+}
+fieldset{
+    background-color: rgb(130, 130, 137);
+    height: 900px;
+}
+legend{
+    margin: auto;
+    text-align: center;
+    padding-top:
+    background-color: rgb(244, 242, 242);
+    width: 35%;
+}
+.first{
+    height: 60px;
+    width:70%;
+    background-color: aliceblue;
+    margin: 30px 25% 30px 20%;
+}
+.fullname{
+    height: 30px;
+    width:80%;
+    margin:15px 15px 15px 10%;
+}
+.second{
+    height: 60px;
+    width:70%;
+    background-color: aliceblue;
+    margin: 30px 25% 30px 20%;
+}
+.email{
+    height: 30px;
+    width:80%;
+    margin:15px 15px 15px 10%;
+}
+.third{
+    height: 60px;
+    width:70%;
+    background-color: aliceblue;
+    margin: 30px 25% 30px 20%;
+}
+.phone{
+    height: 30px;
+    width:80%;
+    margin:15px 15px 15px 10%;
+}
+.fourth{
+    height:100px;
+    width:70%;
+    background-color: aliceblue;
+    margin: 30px 25% 30px 20%;
+}
+.select{
+    height: 50px;
+    width:80%;
+    margin:25px 15px 15px 10%;
+    border-radius: 15%;
+}
+#write3{
+  font-size: 20px;
+  text-align: center;
+  padding:30px 50px 0 50px;
+}
+#duyme{
+    margin: 50px 0 0 40%;
+    height: 50px;
+    width: 30%;
+    color: aliceblue;
+    background-color: rgb(239, 150, 17);
+    border-radius:20%;
+    font-size:20px;
+}

@@ -1,0 +1,361 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    height: 100px;
+    width: 100%;
+    background-color: gray;
+    color: white;
+}
+.nav p{
+   font-size: 20px;
+   font-size: 50px;
+}
+.list{
+     display: flex;
+     justify-content: space-around;
+}
+.list>li{
+    padding: 40px;
+    list-style: none;
+    font-size:25px;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../sekiller/family1.jpg);
+    height:900px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main p{
+   font-size: 80px;
+   font-weight:bold;
+   color: aliceblue;
+}
+.icon{
+   margin-top: 50px;
+   width: 100px;
+   height: 100px;
+   margin-left: 130px;
+}
+.middle{
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    width: 100%;
+    background-image:linear-gradient(rgb(175, 169, 169) 30%,rgb(215, 117, 117) 80%,rgb(198, 228, 149));
+}
+#left{
+    height: 100%;
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+#innerl{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#innerl p{
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration:underline;
+}
+#innerl img{
+    padding-top: 30px;
+}
+#middle{
+    height: 100%;
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+#innerm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#innerm p{
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration:underline;
+}
+#innerm h5{
+    padding-top: 30px;
+    text-align: justify;
+}
+
+#right{
+    height: 100%;
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+#innerr{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#innerr p{
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration:underline;
+}
+#innerr h5{
+    padding:30px 20px 0 20px;
+    text-align: justify;
+}
+.aboutus{
+    height: 800px;
+    width: 100%;
+  background-color: black;
+}
+.option{
+    padding: 50px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.text{
+    color: aliceblue;
+    width: 50%;
+}
+.text h1{
+    text-align: center;
+    font-size: 40px;
+}
+.text h4{
+   text-align:justify;
+   font-size: 20px;
+   line-height: 30px;
+   padding-top: 30px;
+}
+.squares{
+   display: flex;
+   justify-content: space-around;
+   flex-wrap: wrap;
+   width: 47%;
+
+   border-radius:20px;
+}
+.squares img{
+    border-radius: 10%;
+    height: 85%;
+    width:100%;
+    object-fit: cover;
+}
+.test{
+    width: 47%;
+}
+section{
+    height: 500px;
+    width: 100%;
+    background-color: aquamarine;
+}
+section p{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 40px;
+}
+.division{
+  display: flex;
+  justify-content:space-evenly;
+  align-items: center;
+  padding-top: 30px;
+  
+}
+.division1{
+    height: 300px;
+    width:30%;
+    background-color: rgb(162, 202, 189);
+    border-radius: 15px;
+    padding:15px;
+}
+.division1 h2{
+    text-align: center;
+    padding-bottom:20px;
+    color: rgb(20, 130, 31);
+    font-size: 40px;
+}
+.division1 h4{
+    text-align: justify;
+}
+.division2{
+    height: 300px;
+    width:30%;
+    background-color: rgb(162, 202, 189);
+    border-radius: 15px;
+    padding:15px;
+}
+.division2 h2{
+    text-align: center;
+    padding-bottom:20px;
+    color: rgb(20, 130, 31);
+    font-size: 40px;
+}
+.division2 h4{
+    text-align: justify;
+}
+.division3{
+    height: 300px;
+    width:30%;
+    background-color: rgb(162, 202, 189);
+    border-radius: 15px;
+    padding:15px;
+}
+.division3 h2{
+    text-align: center;
+    padding-bottom:20px;
+    color: rgb(20, 130, 31);
+    font-size: 40px;
+}
+.division3 h4{
+    text-align: justify;
+}
+.section2{
+    display:flex;
+    justify-content: space-between;
+    height: 600px;
+    width: 100%;
+    background-image: radial-gradient(rgb(103, 103, 162),rgb(185, 185, 92),grey,rgb(170, 104, 104) );
+    padding: 50px 40px 0 40px;
+}
+.left1{
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+    height: 520px;
+    width: 32%;
+    background-color: rgb(76, 76, 231);
+    border-radius:10%;
+}
+.left1 img{
+    height: 180px;
+    width: 200px;
+    border-radius: 50%;
+}
+.left1 h2{
+    text-align: justify;
+    padding: 15px;
+    color: aliceblue;
+}
+.left1 p{
+    font-size: 40px;
+    color: aliceblue;
+}
+.middle1{
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+    height: 520px;
+    width: 32%;
+    background-color: rgb(76, 76, 231);
+    border-radius:10%;
+}
+.middle1 img{
+    height: 180px;
+    width: 200px;
+    border-radius: 50%;
+}
+.middle1 h2{
+    text-align: justify;
+    padding: 15px;
+    color: aliceblue;
+}
+.middle1 p{
+    font-size: 40px;
+    color: aliceblue;
+}
+.right1{
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+    height: 520px;
+    width: 32%;
+    background-color: rgb(76, 76, 231);
+    border-radius:10%;
+}
+.right1 img{
+    height: 180px;
+    width: 200px;
+    border-radius: 50%;
+}
+.right1 h2{
+    text-align: justify;
+    padding: 15px;
+    color: aliceblue;
+}
+.right1 p{
+    font-size: 40px;
+    color: aliceblue;
+}
+.contactus{
+    height: 800px;
+    width: 100%;
+    background-color:rgb(204, 237, 17) ;
+    border-radius: 3%;
+    border: 3px solid blueviolet;
+
+}
+.contactus h2{
+    font-size: 40px;
+    text-align: center;
+    padding-top: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   
+}
+.frame{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+}
+.firstframe{
+    margin-bottom: 30px;
+    height: 70px;
+    width: 800px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.secondframe{
+    margin-bottom: 30px;
+    height: 200px;
+    width: 800px;
+    font-size: 20px;
+    padding-bottom: 160px;
+    font-weight: bold;
+}
+.thirdframe{
+    background-color: blue;
+    color: antiquewhite;
+    height: 70px;
+    width: 800px;
+    font-size: 20px;
+    font-weight: bold;
+}
+footer{
+    height: 50px;
+    width: 100%;
+    background-color: rgb(79, 79, 159);
+    text-align: center;
+    font-size: 20px;
+    padding-top: 20px;
+    margin-top:40px;
+  
+}
+span{
+    color: red;
+}
+/* footer frame-nin icine girmir */

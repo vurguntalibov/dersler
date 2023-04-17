@@ -1,0 +1,196 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.ders1 {
+    background-image: url('../sekiller/nature-3082832__340.jpg');
+    height: 300px;
+    ;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    text-transform: capitalize;
+    padding-top: 60px;
+    color: aliceblue;
+}
+
+h2 {
+    color: aliceblue;
+    text-align: center;
+    line-height: 2px;
+}
+
+#duyme {
+    margin: 15px;
+    background-color: black;
+    color: beige;
+    text-transform: capitalize;
+    text-align: center;
+    border: 70px;
+    width: 100px;
+    height: 40px;
+    position: relative;
+    left: 48%;
+    line-height: normal;
+}
+
+.aa {
+    background-color: aliceblue;
+    height: 20px;
+    font-size: 50px;
+    text-align: center;
+    background: ;
+    text-transform: capitalize;
+    line-height: 2px;
+    padding: 0px;
+    margin-top: 30px;
+}
+
+.bb {
+    background-color: aliceblue;
+    margin-top: 1px;
+    font-size: 30px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.ders2 {
+    background-image: url(../sekiller/20533968.jpg);
+    height: 400px;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+.aa {
+    background-color: aliceblue;
+    height: 10px;
+    font-size: 50px;
+    text-align: center;
+    text-transform: capitalize;
+    line-height: 2px;
+    padding: 0px;
+    margin-top: 30px;
+}
+
+.bb {
+    background-color: aliceblue;
+    margin-top: 1px;
+    font-size: 30px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.ders3 {
+    background-image: url(../sekiller/nature-3082832__340.jpg);
+    height: 400px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.aa {
+    background-color: aliceblue;
+    height: 10px;
+    font-size: 50px;
+    text-align: center;
+    text-transform: capitalize;
+    line-height: 2px;
+    padding: 0px;
+    margin-top: 30px;
+}
+
+.bb {
+    background-color: aliceblue;
+    margin-top: 1px;
+    font-size: 30px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.ders4 {
+    background-image: url(../sekiller/a.jpg);
+    height: 800px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.aa {
+    background-color: aliceblue;
+    height: 10px;
+    font-size: 50px;
+    text-align: center;
+    text-transform: capitalize;
+    line-height: 2px;
+    padding: 30px;
+    margin-top: 30px;
+}
+
+.bb {
+    background-color: aliceblue;
+    margin-top: 1px;
+    font-size: 30px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.ders6 {
+    background-color: rgb(200, 231, 168);
+}
+
+.cc {
+    text-align: center;
+    font-size: 40px;
+    text-transform: capitalize;
+    margin-bottom: 1px;
+}
+
+.dd {
+    text-align: center;
+    font-size: 25px;
+}
+
+.ders7 {
+    margin: 0;
+    color: antiquewhite;
+    background-color: rgb(13, 137, 137);
+    text-align: center;
+    font-size: 25px;
+}
+
+.ders8 {
+    margin: 0;
+    line-height: 2px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.704);
+    color: antiquewhite;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.ii {
+    font-size: 30px;
+    padding-top: 15px;
+    padding-bottom: 2px;
+}
+
+footer {
+    line-height: 20px;
+    background-color: black;
+    color: antiquewhite;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 3px;
+}
+
+span {
+    color: rgb(14, 125, 165);
+    font-size: 25px;
+}

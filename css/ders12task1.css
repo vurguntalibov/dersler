@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-wrap: wrap;
+}
+div{
+    height:300px;
+    width: 300px;
+}
+@media screen and (min-width:300px) {
+    div{
+     background-color: rgb(255, 0, 153);
+    
+    }
+}
+@media screen and (max-width:500px) {
+    div{
+     background-color: aqua;
+    }
+}

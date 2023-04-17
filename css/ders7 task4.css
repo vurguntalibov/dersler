@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image:url(../sekiller/home2.jpg);
+    height:auto;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.main{
+    margin-top: 70px;
+    margin-left:65%;
+    height: 800px;
+    width:30%;
+    background-color: aliceblue;
+}
+.registration{
+    padding-left: 5%;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 50px;
+}
+.picture1 img{
+    height:200px;
+    width: 200px;
+    margin: 50px 0 0 35%
+}
+.maintable1{
+    margin-top:30px;
+    margin-left:20%;
+}
+#email{
+    background-image: url(../sekiller/icons/instaqram.jpg);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size:80px;
+    height: 60px;
+    width: 350px;
+    padding-left:90px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+.maintable2{
+     margin-top:30px;
+     margin-left:20%;
+}
+#password{
+    background-image: url(../sekiller/icons/phone2.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size:60px;
+    height: 60px;
+    width: 350px;
+    padding-left:90px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+ #check{
+    margin-top:30px;
+    margin-left:35%;
+    height:20px;
+    width:20px;
+ }
+ span{
+    font-size: 25px;
+ }
+ button{
+    margin-top: 30px;
+    margin-left: 35%;
+    height: 40px;
+    width: 200px;
+    color: white;
+    background-color: blueviolet;
+    border-radius:20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+ }
+ h2{
+    margin-top: 30px;
+    margin-left: 35%;
+ }
+
+    

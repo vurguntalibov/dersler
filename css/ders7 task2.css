@@ -1,0 +1,151 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    
+}
+nav{
+    height: 100px;
+    width:100%;
+    background-color:rgb(61, 62, 57);
+    color:white;
+    top:0;
+    position:absolute;
+}
+.write{
+    position:relative;
+}
+.write1{
+    position: absolute;
+    font-size: 50px;
+    font-weight: bold;
+    top: 20px;
+    left:7%;
+}
+.write2{
+    position: absolute;
+    font-size: 30px;
+    font-weight: bold;
+    top: 35px;
+    right:7%;
+}
+.write3{
+    position: absolute;
+    font-size: 30px;
+    font-weight: bold;
+    top: 35px;
+    right:14%;
+}
+.write4{
+    position: absolute;
+    font-size: 30px;
+    font-weight: bold;
+    top: 35px;
+    right:21%;
+}
+.main{
+    position: relative;
+    top:200px;
+}
+.mainwrite1{
+    position: absolute;
+    font-size: 40px;
+    font-weight: bold;
+    left: 25%;
+}
+.mainwrite1 span{
+    color: goldenrod;
+}
+.mainwrite2{
+    position: absolute;
+    font-size: 30px;
+    margin-top: 130px;
+    left: 15%;
+    right: 40%;
+    text-align: justify;
+    line-height: 45px;
+}
+.mainpicture{
+    position: absolute;
+    right: 80px;
+    height: 650px;
+    border-radius: 50%;
+}
+.sekil1{
+    position:relative;
+    height:400px;
+    width: 100%;
+    background-color: aqua;
+}
+.section{
+    position: relative;
+    top: 900px;
+    height:800px;
+    width: 100%;
+    background-image:url(../sekiller/sunset-profile-background.jpg);
+    background-position: center;
+}
+.sectionwrite1{
+    position: absolute;
+    font-size: 60px;
+    top: 100px;
+    left: 35%;
+    color: aliceblue;
+    font-weight: bold;
+}
+.sectionwrite2{
+    position: absolute;
+    top: 250px;
+    left: 13%;
+    background-color: rgb(138, 210, 124);
+    width: 1400px;
+    height: 150px;
+    font-size: 20px;
+}
+img{
+    position: absolute;
+    border-radius: 50%;
+    height: 150px;
+}
+.write01{
+  position:absolute;
+  left: 180px;
+  top: 20px;
+  text-align: justify;
+}
+.sectionwrite3{
+    position: absolute;
+    top: 500px;
+    left: 13%;
+    background-color: rgb(138, 210, 124);
+    width: 1400px;
+    height: 150px;
+    font-size: 20px;
+}
+img{
+    position: absolute;
+    border-radius: 50%;
+    height: 150px;
+}
+.write01{
+  position:absolute;
+  left: 180px;
+  top: 20px;
+  text-align: justify;
+}
+footer{
+    top: 900px;
+    position:relative;
+    height: 60px;
+    width: 100%;
+    background-color: rgb(11, 12, 12);
+    color: antiquewhite;
+    text-align: center;
+    font-size: 30px;
+    line-height: 20px;
+}
+.write02{
+    padding-top: 20px;
+}

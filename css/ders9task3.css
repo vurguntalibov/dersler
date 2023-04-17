@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: aquamarine;
+}
+#nav{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(108, 165, 121);
+}
+#main{
+    display: flex;
+    align-items: stretch;
+    height: 800px;
+    width:100%;
+}
+#first{
+    display:flex;
+    background-color: rgb(145, 84, 111);
+    height:800px;
+    width:33%;
+}
+#second{
+    display: flex; 
+    background-color: rgb(28, 106, 46) ;
+    height:800px;
+    width:33%;
+}
+#third{
+ display: flex;
+ background-color: rgb(145, 84, 111);
+ height:800px;
+ width:34%;
+}
+footer{
+    height:100px;
+    width: 100%;
+    background-color: brown;
+}
